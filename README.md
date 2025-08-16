@@ -46,3 +46,20 @@ Nothing is perfect =( . Behavior3 Editor focus on Chrome (thus, working pretty w
 - https://github.com/behavior3/behavior3js
 - https://github.com/behavior3/behavior3py
 
+
+npm install electron-prebuilt
+npm install gulp
+"gulp-angular-templatecache": "~1.7.0",
+"gulp-concat": "~2.6.0",
+"gulp-connect": "~2.2.0",
+"gulp-foreach": "^0.1.0",
+"gulp-jshint": "~1.11.2",
+"gulp-less": "~3.0.3",
+"gulp-minify-css": "~1.2.1",
+"gulp-minify-html": "~1.0.4",
+"gulp-replace": "~0.5.4",
+"gulp-uglify": "~1.4.1",
+"gulp-zip": "^3.0.2",
+"jshint-stylish": "~2.0.1",
+"merge-stream": "~1.0.0",
+"rimraf": "^2.4.3"
