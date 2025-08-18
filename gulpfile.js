@@ -128,7 +128,9 @@ gulp.task('_app_html', () =>
       }))
       .pipe(replace('[BUILD_VERSION]', build_version))
       .pipe(replace('[BUILD_DATE]', build_date))
-      .pipe(templateCache('templates.min.js', {standalone: true}))
+      .pipe(templateCache('templates.min.js', {standalone: true,root: "",transformUrl: function(url) {
+        return url.replace(/^[\/\\]/,'')
+      }}))
       .pipe(gulp.dest('build/js'))
       .pipe(connect.reload())
 );
