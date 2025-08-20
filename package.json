@@ -34,6 +34,7 @@
     "dist": "gulp dist"
   },
   "devDependencies": {
+    "electron": "^37.3.0",
     "gulp": "^4.0.2"
   }
 }
